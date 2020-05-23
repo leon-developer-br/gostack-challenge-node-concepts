@@ -1,0 +1,24 @@
+{
+  "name": "gostack-desafio-conceitos-node",
+  "version": "1.0.0",
+  "description": "Bootcamp GoStack Rocketseat - Desafio: Conceitos do Node.js",
+  "author": "Leonardo Pereira <leonpereiratech@gmail.com>",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "jest --coverage=true",
+    "make-badges": "node_modules/.bin/jest-badges-readme",
+    "make-readme": "npm run test && npm run make-badges"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuidv4": "^6.0.9"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
