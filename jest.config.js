@@ -185,7 +185,6 @@ module.exports = {
 
   // Whether to use watchman for file crawling
   // watchman: true,
-  rootDir: "src",
   testTimeout: 500,
   coverageReporters: ['json-summary', 'text', 'lcov'],
   collectCoverage: true,

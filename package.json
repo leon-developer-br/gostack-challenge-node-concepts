@@ -9,6 +9,7 @@
     "dev": "nodemon",
     "test": "jest --coverage=true",
     "make-badges": "node_modules/.bin/jest-badges-readme",
+    "premake-readme": "echo false > .buildstatus",
     "make-readme": "npm run test && npm run make-badges"
   },
   "dependencies": {
@@ -17,6 +18,7 @@
     "uuidv4": "^6.0.9"
   },
   "devDependencies": {
+    "@olavoparno/jest-badges-readme": "^1.4.1",
     "jest": "^26.0.1",
     "nodemon": "^2.0.4",
     "supertest": "^4.0.2"
