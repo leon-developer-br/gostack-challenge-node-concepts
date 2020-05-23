@@ -15,6 +15,8 @@ npm run dev
 
 ```
 npm run make-readme
+
+As badges acima são criadas automaticamente após a execução dos testes automatizados com cobertura.
 ```
 
 > ### Insomina
