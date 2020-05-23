@@ -1,6 +1,6 @@
 ## Introdução
 
-> Areuitetura Event-lopp
+> Arquitetura Event-lopp
 ```
 - Baseado em eventos
 - Call Stack (LIFO - last in first out)
@@ -13,6 +13,10 @@
 ```
 
 > NoN-blocking I/O
+```
+Realização de IO sem bloquear o servidor
+```
+
 
 ## Frameworks
 
